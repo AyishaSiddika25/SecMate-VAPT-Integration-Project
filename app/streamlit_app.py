@@ -912,6 +912,8 @@ elif page == "Reports":
 
             report_json = safe_json(item)
 
+
+
             st.download_button(
                 label=(
                     "⬇️ Download "
