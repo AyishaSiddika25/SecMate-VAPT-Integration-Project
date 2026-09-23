@@ -1,0 +1,26 @@
+# SecMate Configuration
+
+app:
+  name: "SecMate"
+  mode: "development"
+
+assessment:
+  default_intensity: "low"
+  mode: "simulated"
+
+target:
+  name: "Default AI Target"
+  provider: "openai_compatible"
+  base_url: ""
+  model: ""
+  api_key_env: "SECMATE_API_KEY"
+  timeout_seconds: 30
+
+red_team:
+  enabled: true
+
+blue_team:
+  enabled: true
+
+vapt:
+  mode: "rule_based"
